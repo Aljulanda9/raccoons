@@ -18,7 +18,7 @@ Python3
 To launch the program, navigate to where the repository was cloned then:
 
 ```
-python3 raccoons_gifts.py
+python3 raccoon_gifts.py
 ```
 
 The program will ask you if you want to run the program for a "random test" or "customized input". Choose customized input. Testing will be discussed later.
@@ -45,7 +45,7 @@ For ease of use, the tests are bundeled with the program in one interface:
 Start by launcing tha app:
 
 ```
-python3 raccoons_gifts.py
+python3 raccoon_gifts.py
 ```
 
 The program will ask you if you want to do "random tests", choose it.
