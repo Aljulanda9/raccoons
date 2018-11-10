@@ -58,7 +58,7 @@ def randomTest(numGroups, nameLength):
 
         # Add a couple to the family if the random result was 0 and no duplicates, otherwise add a signle person
         if (x == 0 and valid):
-            mems.add(firstMember);
+            mems.add(firstMember)
             mems.add(secondMember)
             fam.append([firstMember, secondMember])
         elif (x == 1 and valid):
@@ -99,7 +99,7 @@ def create_family(couples, singles):
         secondMember = "".join(random.choices(string.ascii_lowercase, k=4))
         valid = [firstMember not in mems and secondMember not in mems]
         if valid:
-            mems.add(firstMember);
+            mems.add(firstMember)
             mems.add(secondMember)
             fam.append([firstMember, secondMember])
 
