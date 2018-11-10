@@ -132,11 +132,10 @@ def pairs(family, members):
     no = {}
     # 2n
     for m in members:
-        # n
+        #return the list which the member belongs to
         ind = [i for i, s in enumerate(family) if (str(m) in s)]
-        # print(m, ind)
         no[m] = family[ind[0]]
-        # stack solution
+        
 
     counter = len(members)
     loops = 0
